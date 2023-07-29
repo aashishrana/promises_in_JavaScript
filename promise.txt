@@ -1,0 +1,10 @@
+Promise is a built-in object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises provide a more elegant way to handle asynchronous code compared to traditional callback-based approaches, making code more readable and maintainable.
+
+
+A Promise can be in one of the following states:
+
+    Pending: The initial state of a Promise. The asynchronous operation is still in progress, and the Promise is not fulfilled or rejected yet.
+
+    Fulfilled (Resolved): The Promise is successfully resolved, meaning the asynchronous operation completed successfully, and a value is available.
+
+    Rejected: The Promise is rejected, indicating that the asynchronous operation encountered an error, and an error reason is available.
