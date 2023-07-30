@@ -7,6 +7,7 @@ function morePromise() {
         }, 5000);
     });
 }
+
 console.log("start");
 let x = morePromise();
 console.log("a new promise");
